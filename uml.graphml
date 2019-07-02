@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.18.1.1-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="151.23245979117152" width="130.94399999999996" x="524.650631859198" y="-19.64137103873388"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="41.265625" x="44.83918749999998" xml:space="preserve" y="0.0">Record</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="130.94399999999996" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="147.6875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="127.439453125" x="0.0" xml:space="preserve" y="0.0">ID
+Timetable_ID
+ClassN_Title
+DayOfWeek_Number
+Lesson_Number
+SubjectN_Title
+Teacher_ID
+Cabinet_Number</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.47199999999998" y="73.61622989558576">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="137.609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="5.333984375" x="0.0" xml:space="preserve" y="0.0">
+
+
+
+
+
+
+
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="137.609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.333984375" x="0.0" xml:space="preserve" y="0.0">
+
+
+
+
+
+
+
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="147.41015625" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0">
+
+
+
+
+
+
+</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="60.608400000000074" width="121.09387200000003" x="681.2726992782589" y="-95.08376000000128"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.6015625" x="40.74615475000007" xml:space="preserve" y="0.0">ClassN</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="121.09387200000003" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.921875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="116.951171875" x="0.0" xml:space="preserve" y="0.0">Title
+Number_of_people</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693600000007" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.10840000000007" width="80.29387200000008" x="386.19869244013717" y="48.931984262023306"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.9296875" x="20.18209225000004" xml:space="preserve" y="0.0">Lesson</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="80.29387200000008" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="67.8828125" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="70.287109375" x="0.0" xml:space="preserve" y="0.0">Number
+Time_start
+Time_end</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="34.55420000000004">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="91.33747801418451" width="86.69387200000006" x="398.86042727825895" y="146.30831923961793"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.44921875" x="20.622326625000028" xml:space="preserve" y="0.0">Teacher</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="86.69387200000006" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="83.84375" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="75.478515625" x="0.0" xml:space="preserve" y="0.0">ID
+First_name
+Last_name
+Patronymic
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="43.668739007092256">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="60.608400000000074" width="80.29387200000008" x="699.5192530371191" y="142.57599968237315"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="44.62890625" x="17.832482875000096" xml:space="preserve" y="0.0">Cabinet</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="80.29387200000008" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.921875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="61.017578125" x="0.0" xml:space="preserve" y="0.0">Number
+Capacity</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.146936000000096" y="28.304200000000037">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="53.71840000000006" width="121.09387200000003" x="702.9194995439304" y="61.965631045858544"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.98828125" x="34.55279537499996" xml:space="preserve" y="0.0">SubjectN</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="121.09387200000003" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.921875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="115.708984375" x="0.0" xml:space="preserve" y="0.0">Title
+Special_equipment</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="58.54693599999996" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="53.71840000000006" width="86.69387200000006" x="360.43656878180514" y="-27.545094492654542"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.853515625" x="9.920178187500028" xml:space="preserve" y="0.0">DayOfWeek</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="86.69387200000006" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.921875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="59.60546875" x="0.0" xml:space="preserve" y="0.0">Number
+Title</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.34693600000003" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="106.01478634991307" width="109.46399999999994" x="824.7366992782587" y="-109.35269185449152"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.5703125" x="24.94684374999997" xml:space="preserve" y="0.0">Schoolboy</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="109.46399999999994" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="99.8046875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="79.0234375" x="0.0" xml:space="preserve" y="0.0">ID
+ClassN_Title
+First_name
+Last_name
+Patronymic
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="52.73199999999997" y="51.00739317495653">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.8525390625" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="53.71840000000006" width="80.29387200000008" x="397.0318921744655" y="-95.08376000000128"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E8EEF7" borderDistance="0.0" configuration="com.yworks.entityRelationship.label.name" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasLineColor="false" height="19.9609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.212890625" x="12.04049068750004" xml:space="preserve" y="0.0">Timetable</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="internal" modelPosition="tr" rightInset="0" textColor="#0000FF" topInset="20" verticalTextPosition="bottom" visible="true" width="0.0" x="80.29387200000008" y="0.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.9609375" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#996600" topInset="20" verticalTextPosition="bottom" visible="true" width="5.287109375" x="0.0" xml:space="preserve" y="0.0">
+</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.921875" horizontalTextPosition="center" iconTextGap="4" leftInset="16" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="48.162109375" x="0.0" xml:space="preserve" y="0.0">ID
+YearN</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.14693600000004" y="24.85920000000003">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="65.45566747247253" sy="-17.061932672918868" tx="0.0" ty="0.0">
+            <y:Point x="673.2726992782588" y="38.91292618393301"/>
+            <y:Point x="673.2726992782588" y="-64.77956000000124"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-65.47423104930553" sy="17.649378969883763" tx="37.35425190255643" ty="-11.459543895879285"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n0" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-65.48343243811244" sy="50.603398707464585" tx="43.36146976996969" ty="-17.202837068511876">
+            <y:Point x="502.9045579333273" y="106.24009869268907"/>
+            <y:Point x="502.9045579333273" y="174.7742211781983"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n0" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="65.4265303212722" sy="65.55562178146994" tx="-40.107754476562604" ty="0.0">
+            <y:Point x="668.4209689334043" y="120.8563069343315"/>
+            <y:Point x="681.3167730371206" y="120.8563069343315"/>
+            <y:Point x="681.3167730371206" y="172.8801996823732"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n0" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="65.44109944234718" sy="35.5557686743784" tx="-60.533715543930725" ty="2.7057964853717067">
+            <y:Point x="691.3573970371195" y="91.53062753123028"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n0" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-65.50810838825308" sy="0.0" tx="43.37043380859376" ty="0.0">
+            <y:Point x="479.13716984821957" y="56.773888244757856"/>
+            <y:Point x="479.13716984821957" y="-0.6858944926545121"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n7" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-54.75116191504753" sy="-8.434261320466241" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n0" target="n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-65.48253677185386" sy="-29.35427734368205" tx="40.16925182553456" ty="1.0467311378806698">
+            <y:Point x="496.6504408983453" y="26.62058151316983"/>
+            <y:Point x="496.6504408983453" y="-67.17782886212058"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>
