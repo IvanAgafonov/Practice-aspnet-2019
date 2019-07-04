@@ -1,4 +1,4 @@
-﻿@model IEnumerable<PartyInvites.Models.GuestResponse>
+﻿@model IEnumerable<Store_Rating_System.Models.Store>
 @{
     Layout = null;
 }
@@ -11,23 +11,25 @@
 </head>
 <body>
     <div class="panel-body">
-        <h2>Here is the list of people attending the party</h2>
+        <h2>Here is the list of most popular stores!</h2>
         <table class="table table-sm table-striped table-bordered">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
+                    <th>Store</th>
+                    <th>Description</th>
+                    <th>Site</th>
+                    <th>Rating</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (PartyInvites.Models.GuestResponse r in Model)
+                @foreach (Store_Rating_System.Models.Store r in Model)
                 {
-                    <tr>
-                        <td>@r.Name</td>
-                        <td>@r.Email</td>
-                        <td>@r.Phone</td>
-                    </tr>
+                <tr>
+                    <td><a class="nav-link" asp-action="Index">@r.Name</a></td>
+                    <td>@r.Description</td>
+                    <td> <a class="nav-link" href="http://@r.URL">@r.URL</a></td>
+                    <td>★★★★☆</td>
+                </tr>
                 }
             </tbody>
         </table>

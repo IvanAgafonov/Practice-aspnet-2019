@@ -1,16 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PartyInvites.Models;
+using Store_Rating_System.Models;
 using System.Linq;
 
-namespace PartyInvites.Controllers
+namespace Store_Rating_System.Controllers
 {
     public class HomeController : Controller
     {
+        private IProductRepository repository;
+
+        public HomeController(IProductRepository repo)
+        {
+            repository = repo;
+        }
+
         public ViewResult Index()
         {
-            int hour = System.DateTime.Now.Hour;
-            ViewBag.Greeting = hour <= 12 ? "Good Morning" : "Good Afternoon";
-            return View("MyView");
+            return View("ListResponses", repository.Stores);
         }
 
         [HttpGet]
@@ -20,7 +25,7 @@ namespace PartyInvites.Controllers
         }
 
         [HttpPost]
-        public ViewResult RsvpForm(GuestResponse guestResponse)
+        public ViewResult RsvpForm(Store guestResponse)
         {
             if (ModelState.IsValid)
             {
@@ -36,7 +41,12 @@ namespace PartyInvites.Controllers
 
         public ViewResult ListResponses()
         {
-            return View(Repository.Responses.Where(r => r.WillAttend == true));
+            return View(Repository.Responses.Where(r => r.ID != 100));
+        }
+
+        public ViewResult ListStores()
+        {
+            return View();
         }
     }
 }

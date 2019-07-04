@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PartyInvites.Models
+namespace Store_Rating_System.Models
 {
     public class GuestResponse
     {
