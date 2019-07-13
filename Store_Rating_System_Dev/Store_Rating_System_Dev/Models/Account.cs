@@ -8,8 +8,8 @@ namespace Store_Rating_System_Dev.Models
     public class Account
     {
         public int ID { get; set; }
-        public string login { get; set; }  //хеш?
-        public string password { get; set; } // хеширование?
+        public string login { get; set; } 
+        public string password { get; set; } 
 
     }
 }

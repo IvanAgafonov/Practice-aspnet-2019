@@ -11,19 +11,22 @@ namespace Store_Rating_System_Dev.Models
         public int ID                       { get; set; }
         public string name                  { get; set; }
         public string url                   { get; set; }
-        public string name_category         { get; set; } // ?????????????????? Are this string or instance of Category Class or enum?
+        public string name_category         { get; set; } 
         public int number_of_ratings        { get; set; }
         public int number_of_pos_ratings    { get; set; }
         public double avarange_rating       { get; set; }
         public string description           { get; set; }
-        public IFormFile photo              { get; set; }  // ?????????????????????? Are this IFormFile or file or may be something else?
-        public string country               { get; set; }  // ?????????????????????? Are this string or instance of Country Class?
+        //public IFormFile photo              { get; set; } 
+        public string country               { get; set; } 
         public string city                  { get; set; }
         public string street                { get; set; }
-        public int house_number             { get; set; }
-        public int building                 { get; set; }
-        public int porch                    { get; set; }
-        public int postcode                 { get; set; }
 
     }
+
+    public class Category
+    {
+        string name_category;
+    }
 }
+
+
