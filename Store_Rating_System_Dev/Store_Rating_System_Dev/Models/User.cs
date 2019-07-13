@@ -12,15 +12,14 @@ namespace Store_Rating_System_Dev.Models
         public string first_name { get; set; }
         public string last_name { get; set; }
         public string patronymic { get; set; }
-        public int phone_number { get; set; }
+        public int? phone_number { get; set; }
         public DateTime date_of_birth { get; set; }
         public string email { get; set; }
-        public int status { get; set; }  
+        public bool? status { get; set; }  
         public DateTime date_of_registarion { get; set; }
         public bool gender { get; set; }
-        public int country { get; set; } 
-        public int city { get; set; }
-        public int district { get; set; }
+        public string country { get; set; } 
+        public string city { get; set; }
         // public int photo { get; set; }
     }
 }

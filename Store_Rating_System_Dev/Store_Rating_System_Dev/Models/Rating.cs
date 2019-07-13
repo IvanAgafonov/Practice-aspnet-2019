@@ -12,8 +12,7 @@ namespace Store_Rating_System_Dev.Models
         public int Moderator_ID { get; set; }
         public int Store_ID { get; set; }
         public string comment { get; set; } 
-        public string status { get; set; }
+        public bool? status { get; set; }
         public DateTime date_of_publication { get; set; }
-
     }
 }

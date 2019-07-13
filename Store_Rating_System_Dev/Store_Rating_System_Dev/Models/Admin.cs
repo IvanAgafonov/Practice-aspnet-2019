@@ -11,7 +11,6 @@ namespace Store_Rating_System_Dev.Models
         public string first_name { get; set; }
         public string last_name { get; set; }
         public string patronymic { get; set; }
-        public int email { get; set; }
-
+        public string email { get; set; }
     }
 }
