@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Store_Rating_System_Dev.Models
 {
+    // интерфейс для работы с бд
     public class IRepository
     {
         IQueryable<Store> Stores { get; }
