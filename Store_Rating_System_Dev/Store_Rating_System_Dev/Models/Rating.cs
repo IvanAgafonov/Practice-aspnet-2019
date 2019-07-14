@@ -17,7 +17,7 @@ namespace Store_Rating_System_Dev.Models
         [ForeignKey("User_ID")]
         public User User { get; set; }
 
-        public int Moderator_ID { get; set; }
+        public int? Moderator_ID { get; set; }
 
         [ForeignKey("Moderator_ID")]
         public Moderator Moderator { get; set; }
@@ -27,8 +27,10 @@ namespace Store_Rating_System_Dev.Models
         [ForeignKey("Store_ID")]
         public Store Store { get; set; }
 
-        [MaxLength(50)]
+        [MaxLength(500)]
         public string comment { get; set; } 
+
+        public bool value { get; set; }
 
         public bool? status { get; set; }
 

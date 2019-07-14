@@ -31,7 +31,7 @@ namespace Store_Rating_System_Dev.Models
 
         public double avarange_rating       { get; set; }
 
-        [MaxLength(50)]
+        [MaxLength(500)]
         public string description           { get; set; }
 
         [MaxLength(50)]
@@ -39,9 +39,6 @@ namespace Store_Rating_System_Dev.Models
 
         [MaxLength(50)]
         public string city                  { get; set; }
-
-        [MaxLength(50)]
-        public string street                { get; set; }
 
         // public IFormFile photo           { get; set; } 
 
@@ -51,7 +48,7 @@ namespace Store_Rating_System_Dev.Models
     {
         [Key]
         [MaxLength(50)]
-        string name;
+        public string name { get; set; }
     }
 }
 

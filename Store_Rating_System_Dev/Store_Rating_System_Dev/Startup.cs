@@ -23,8 +23,9 @@ namespace Store_Rating_System_Dev
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(
-            Configuration["Data:SportStoreProducts:ConnectionString"]));
+                options.UseSqlServer(
+                Configuration["Data:Store_Rating_System_connection_str:ConnectionString"]));
+            services.AddTransient<IRepository, EFRepository>();
             services.AddMvc();
         }
 
@@ -37,6 +38,7 @@ namespace Store_Rating_System_Dev
             app.UseMvc(routes => {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}");
             });
+            SeedData.EnsurePopulated(app);
         }
     }
 }

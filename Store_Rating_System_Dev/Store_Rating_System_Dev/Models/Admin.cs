@@ -22,9 +22,7 @@ namespace Store_Rating_System_Dev.Models
         public string last_name { get; set; }
 
         [MaxLength(50)]
-        public string patronymic { get; set; }
-
-        [MaxLength(50)]
+        [EmailAddressAttribute]
         public string email { get; set; }
     }
 }

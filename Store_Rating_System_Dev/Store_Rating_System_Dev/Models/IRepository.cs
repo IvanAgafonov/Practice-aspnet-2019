@@ -10,6 +10,7 @@ namespace Store_Rating_System_Dev.Models
     {
         IQueryable<Store> Stores { get; }
         IQueryable<Rating> Ratings { get; }
+        IQueryable<Category> Categories { get; }
         IQueryable<User> Users { get; }
         IQueryable<Moderator> Moderators { get; }
         IQueryable<Admin> Admins { get; }
