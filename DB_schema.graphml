@@ -469,7 +469,10 @@ photo
           <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Segoe UI Symbol" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF9900" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="20.0" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#FF6600" topInset="20" verticalTextPosition="bottom" visible="true" width="2.0" x="0.0" y="0.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.92626953125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0"></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" bottomInset="0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="83.705078125" horizontalTextPosition="center" iconTextGap="4" leftInset="2" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="20" verticalTextPosition="bottom" visible="true" width="17.92626953125" x="0.0" xml:space="preserve" y="0.0">
+
+
+</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
           </y:StyleProperties>
@@ -842,7 +845,6 @@ time</y:NodeLabel>
       </data>
     </edge>
     <edge id="e8" source="n5" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="72.32425240587384" sy="-22.54285228801035" tx="0.0" ty="0.0"/>
