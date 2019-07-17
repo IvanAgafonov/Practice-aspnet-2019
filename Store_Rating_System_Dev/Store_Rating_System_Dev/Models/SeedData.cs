@@ -373,6 +373,40 @@ namespace Store_Rating_System_Dev.Models
                             date_of_publication = date_of_publication
                         }
                     );
+
+                    comment = "Very bad";
+                    switch (rand.Next(0, 3))
+                    {
+                        case 0:
+                            status = true;
+                            break;
+                        case 1:
+                            status = false;
+                            break;
+                        case 2:
+                            break;
+                    }
+
+                    date_of_publication = new DateTime(DateTime.Now.Year, 1, 1).AddDays(
+                        rand.Next(DateTime.Now.Day)).AddHours(rand.Next(24)).AddMinutes(rand.Next(60));
+
+                    value = false;
+
+                    User_ID = (int)SomeUserID - 1;
+                    Store_ID = (int)SomeStoreID;
+
+                    context.Ratings.Add(
+                        new Rating
+                        {
+                            User_ID = User_ID,
+                            Moderator_ID = SomeModeratorID,
+                            Store_ID = Store_ID,
+                            comment = comment,
+                            status = status,
+                            value = value,
+                            date_of_publication = date_of_publication
+                        }
+                    );
                 }
 
 

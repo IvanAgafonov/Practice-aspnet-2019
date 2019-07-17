@@ -21,7 +21,6 @@ namespace Store_Rating_System_Dev.Controllers
         [HttpPost]
         public ActionResult Upload(IFormFile uploadedFile)
         {
-
             return RedirectToAction("Index");
         }
     }
