@@ -27,6 +27,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         [Authorize]
+        [HttpGet]
         public ActionResult Ratings()
         {
 
@@ -45,6 +46,7 @@ namespace Store_Rating_System_Dev.Controllers
             return View(Dict);
         }
 
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
@@ -144,6 +146,7 @@ namespace Store_Rating_System_Dev.Controllers
 
 
         [AllowAnonymous]
+        [HttpGet]
         public async Task<IActionResult> Profile(string Name)
         {
             User user = null;
