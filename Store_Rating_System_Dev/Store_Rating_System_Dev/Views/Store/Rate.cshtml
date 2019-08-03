@@ -1,0 +1,17 @@
+﻿@model Rating
+
+<div class="bg-primary m-1 p-1"><h4>Rate @ViewBag.storeName</h4></div>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Rate" method="post">
+    <div>
+        <textarea id="Comment" rows="7" cols="40" placeholder="Comment" name="Comment"></textarea>
+    </div>
+    <div>
+        <input hidden name="store_id" value="@ViewBag.storeID">
+        <label for="Rate_value">Rate value</label>
+        <input type="radio" checked name="Rate_value" value="true" />Positively
+        <input type="radio" name="Rate_value" value="false" />Negatively
+    </div>
+    <button type="submit" class="btn btn-primary">Rate</button>
+    <a asp-action="Detail" asp-route-id="@ViewBag.storeID" class="btn btn-secondary">Cancel</a>
+</form>

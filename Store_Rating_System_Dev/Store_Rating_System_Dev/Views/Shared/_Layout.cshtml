@@ -2,22 +2,54 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet"
-          asp-href-include="**/bootstrap/dist/**/*.min.css"
-          asp-href-exclude="**/*-reboot*,**/*-grid*" />
-    <title>SportsStore</title>
+    <meta charset="utf-8" />
+
+    <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/home.css" />
+    <title>Store Rating</title>
 </head>
-<body>
-    <div class="navbar navbar-inverse bg-inverse" role="navigation">
-        <a class="navbar-brand" href="#">Store Rating System</a>
-    </div>
-    <div class="row m-1 p-1">
-        <div id="categories" class="col-3">
-            Put something useful here later
+    <body>
+        <header class="clearfix">
+            <img id="logo" src="~/images/logo.png" alt="logo StoreRateSystem">
+            <nav>
+                <ul>
+                    <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                    <li><a asp-action="Index" asp-controller="Store">Most Popular</a></li>
+                    <li><a asp-action="Ratings" asp-controller="Account">Ratings</a></li>
+                    <li><a asp-action="Profile" asp-controller="Account">Profile</a></li>
+                    @if ((await AuthorizationService.AuthorizeAsync(User, "RequireAuthenticatedUser")).Succeeded)
+                    {
+                        <li><a class="right_buttons" asp-action="Logout" asp-controller="Account">Sign out</a></li>
+                    }
+                    else
+                    {
+                        <li><a class="right_buttons" asp-action="Registration" asp-controller="Account">Sign up</a></li>
+                        <li><a class="right_buttons" asp-action="Login" asp-controller="Account">Sign in</a></li>
+                    }
+                </ul>
+            </nav>
+        </header>
+
+        <div class="tableContainer">
+            <div class="tableRow">
+
+                <aside>
+                    <p>This is an early version, for all questions write to technical support.</p>
+                </aside>
+
+                <section id="main">
+                    @RenderBody()
+                </section>
+
+                <aside>
+                    <p>This ad slot is for sale.</p>
+                </aside>
+
+            </div>
         </div>
-        <div class="col-9">
-            @RenderBody()
-        </div>
-    </div>
-</body>
+
+        <footer>
+            <p>&copy;2019 StoreRateSystem, All rights reserved.</p>
+        </footer>
+    </body>
 </html>

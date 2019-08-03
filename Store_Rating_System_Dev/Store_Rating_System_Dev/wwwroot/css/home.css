@@ -1,0 +1,133 @@
+﻿body {
+    font: small "Gill Sans", "Trebuchet MS", sans-serif;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    float: left;
+    margin: 0px 0px 0px 10px;
+}
+
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+}
+
+article h1 {
+    font-size: 200%;
+}
+
+article h2 {
+    font-size: 140%;
+}
+
+article p {
+    line-height: 160%;
+}
+
+header ul a {
+    float: left;
+    width: 125px;
+    height: 30px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #cc0033;
+    padding: 0;
+    margin: 25px 5px;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+    header ul a:hover {
+        border: #555 3px solid;
+        color: #ff0;
+    }
+
+    header ul a:active {
+        border: #666 3px solid;
+        color: #f00;
+    }
+
+.text-danger {
+    color: #d9534f !important;
+}
+
+.user_photo img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.users td img, .stores td img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+header ul .right_buttons {
+    float: right
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.tableContainer, form {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    form .tableRow p {
+        display: table-cell;
+        vertical-align: top;
+        padding: 3px;
+    }
+
+.tableRow {
+    display: table-row;
+}
+
+#main, aside {
+    background-color: #66a3ff;
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#main {
+    width: 80%;
+}
+
+
+.center_img {
+    text-align: center;
+}
+
+header, footer {
+    background: #66f;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    padding: 5px;
+    margin: 0px;
+}

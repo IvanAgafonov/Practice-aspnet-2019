@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Store_Rating_System_Dev.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Store_Rating_System_Dev
 {
@@ -18,27 +19,40 @@ namespace Store_Rating_System_Dev
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                Configuration["Data:Store_Rating_System_connection_str:ConnectionString"]));
+                Configuration["Data:Store_Rating_System_dev_connection_str:ConnectionString"]));
+
             services.AddTransient<IRepository, EFRepository>();
+
+            services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
             services.AddMvc();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("RequireAuthenticatedUser", policy =>
+                       policy.RequireAuthenticatedUser());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvc(routes => {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}");
-            });
-            SeedData.EnsurePopulated(app);
+            app.UseAuthentication();
+            app.UseMvcWithDefaultRoute();
+
+            //ApplicationDbContext.CreateAdminAccount(app.ApplicationServices, Configuration).Wait();
+            //SeedData.EnsurePopulated(app);
         }
     }
 }

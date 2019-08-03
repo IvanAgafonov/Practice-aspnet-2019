@@ -1,0 +1,35 @@
+﻿@model Rating
+
+<h4>Create Rating</h4>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="RatingsCreate" method="post">
+    <div>
+        <label asp-for="User_ID"></label>
+        <input asp-for="User_ID" />
+    </div>
+    <div>
+        <label asp-for="Store_ID"></label>
+        <input asp-for="Store_ID" />
+    </div>
+    <div>
+        <label asp-for="Comment"></label>
+        <input asp-for="Comment" />
+    </div>
+    <div>
+        <label asp-for="Rate_value"></label>
+        <input asp-for="Rate_value" />
+    </div>
+    <div>
+        <label asp-for="Rate_Status"></label>
+        <select asp-for="Rate_Status"
+                asp-items="@new SelectList(Enum.GetNames(typeof(Statuses)))"></select>
+    </div>
+    <div>
+        <label asp-for="Date_of_publication"></label>
+        <input asp-for="Date_of_publication" />
+    </div>
+
+    <button class="btn btn-sm btn-primary" type="submit">Create</button><a> </a>
+    <a class="btn btn-sm btn-primary" asp-action="RatingsRead">Cancel</a>
+</form>
+

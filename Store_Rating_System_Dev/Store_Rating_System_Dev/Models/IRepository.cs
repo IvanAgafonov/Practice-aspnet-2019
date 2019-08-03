@@ -5,18 +5,17 @@ using System.Threading.Tasks;
 
 namespace Store_Rating_System_Dev.Models
 {
-    // интерфейс для работы с бд
-    public class IRepository
+    public interface IRepository
     {
         IQueryable<Store> Stores { get; }
+        void SaveStore(Store store);
+        void DeleteStore(Store store);
+
         IQueryable<Rating> Ratings { get; }
-        IQueryable<Category> Categories { get; }
+        void SaveRating(Rating rating);
+        void DeleteRating(Rating rating);
+
         IQueryable<User> Users { get; }
-        IQueryable<Moderator> Moderators { get; }
-        IQueryable<Admin> Admins { get; }
-        IQueryable<Account> Accounts { get; }
-
-
 
     }
 }

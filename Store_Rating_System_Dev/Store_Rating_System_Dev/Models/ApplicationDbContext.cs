@@ -2,27 +2,56 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Store_Rating_System_Dev.Models
 {
-    // Контекст для работы с DB MS SQL
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
-        {
-            Database.EnsureCreated();
-        }
+        { }
 
         public DbSet<Store> Stores { get; set; }
         public DbSet<Rating> Ratings { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Moderator> Moderators { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Account> Accounts { get; set; }
+        public new DbSet<User> Users { get; set; }
+
+
+        public static async Task CreateAdminAccount(IServiceProvider serviceProvider,
+    IConfiguration configuration)
+        {
+            UserManager<User> userManager =
+            serviceProvider.GetRequiredService<UserManager<User>>();
+            RoleManager<IdentityRole> roleManager =
+            serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            string username = configuration["Data:AdminUser:Name"];
+            string email = configuration["Data:AdminUser:Email"];
+            string password = configuration["Data:AdminUser:Password"];
+            string role = configuration["Data:AdminUser:Role"];
+            if (await userManager.FindByNameAsync(username) == null)
+            {
+                if (await roleManager.FindByNameAsync(role) == null)
+                {
+                    await roleManager.CreateAsync(new IdentityRole(role));
+                }
+                User user = new User
+                {
+                    UserName = username,
+                    Email = email
+                };
+                IdentityResult result = await userManager
+                .CreateAsync(user, password);
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, role);
+                }
+            }
+        }
+
 
     }
 }

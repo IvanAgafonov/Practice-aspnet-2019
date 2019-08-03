@@ -8,48 +8,41 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Store_Rating_System_Dev.Models
 {
+    public enum Categories
+    {
+        Electronics, Appliances, Food, Computer_Technology, Sports_and_Recreation, Cosmetics, Clothing
+    }
+
     public class Store
     {
         [Key]
         public int ID                       { get; set; }
 
-        [MaxLength(50)]
-        public string name_Category         { get; set; }
+        public byte[] Image                 { get; set; }
 
-        [ForeignKey("name_Category")]
-        public Category Category            { get; set; }
+        public Categories Category          { get; set; }
 
         [MaxLength(50)]
-        public string name                  { get; set; }
+        public string Name                  { get; set; }
 
         [MaxLength(50)]
-        public string url                   { get; set; }
+        public string Url                   { get; set; }
 
-        public int number_of_ratings        { get; set; }
+        public int Number_of_ratings        { get; set; }
 
-        public int number_of_pos_ratings    { get; set; }
+        public int Number_of_pos_ratings    { get; set; }
 
-        public double avarange_rating       { get; set; }
+        public double Avarange_rating       { get; set; }
 
         [MaxLength(500)]
-        public string description           { get; set; }
+        public string Description           { get; set; }
 
-        [MaxLength(50)]
-        public string country               { get; set; }
+        public Countries Country            { get; set; }
 
-        [MaxLength(50)]
-        public string city                  { get; set; }
-
-        // public IFormFile photo           { get; set; } 
+        public Cities City                  { get; set; }
 
     }
 
-    public class Category
-    {
-        [Key]
-        [MaxLength(50)]
-        public string name { get; set; }
-    }
 }
 
 

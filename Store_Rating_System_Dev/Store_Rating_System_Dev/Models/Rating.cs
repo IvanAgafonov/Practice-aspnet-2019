@@ -7,33 +7,35 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Store_Rating_System_Dev.Models
 {
+    public enum Statuses
+    {
+        Undefined=0,
+        Rejected=-1,
+        Accepted=1
+    }
+
     public class Rating
     {
         [Key]
-        public int ID { get; set; }
+        public int ID                       { get; set; }
 
-        public int User_ID { get; set; }
+        public string User_ID               { get; set; }
 
         [ForeignKey("User_ID")]
-        public User User { get; set; }
+        public User User                    { get; set; }
 
-        public int? Moderator_ID { get; set; }
-
-        [ForeignKey("Moderator_ID")]
-        public Moderator Moderator { get; set; }
-
-        public int Store_ID { get; set; }
+        public int Store_ID                 { get; set; }
 
         [ForeignKey("Store_ID")]
-        public Store Store { get; set; }
+        public Store Store                  { get; set; }
 
         [MaxLength(500)]
-        public string comment { get; set; } 
+        public string Comment               { get; set; } 
 
-        public bool value { get; set; }
+        public bool Rate_value              { get; set; }
 
-        public bool? status { get; set; }
+        public Statuses? Rate_Status        { get; set; }
 
-        public DateTime date_of_publication { get; set; }
+        public DateTime Date_of_publication { get; set; }
     }
 }
