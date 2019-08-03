@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Rating>
+
+<h4>Admin Panel</h4>
+
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+<table  class="table table-sm table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>User_ID</th>
+        <th>Store_ID</th>
+        <th>Comment</th>
+        <th>Value</th>
+        <th>Status</th>
+        <th>Date_of_publication</th>
+        <th></th>
+    </tr>
+    @if (Model.Count() == 0)
+    {
+        <tr><td colspan="8">No Ratings</td></tr>
+    }
+    else
+    {
+        foreach (Rating rating in Model)
+        {
+            <tr>
+                <td>@rating.ID</td>
+                <td>@rating.User_ID</td>
+                <td>@rating.Store_ID</td>
+                <td>@rating.Comment</td>
+                <td>@rating.Rate_value</td>
+                <td>@rating.Rate_Status</td>
+                <td>@rating.Date_of_publication</td>
+                <td>
+                    <form asp-action="RatingsDelete" asp-route-id="@rating.ID" method="post">
+                        <a class="btn btn-sm btn-primary" asp-action="RatingsUpdate"
+                           asp-route-id="@rating.ID">Edit</a><a> </a>
+                        <button class="btn btn-sm btn-primary" type="submit">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    }
+</table>
+<a class="btn btn-primary" asp-action="RatingsCreate">Create</a>
+<a class="btn btn-danger btn-primary" asp-action="Index">Back</a>
+

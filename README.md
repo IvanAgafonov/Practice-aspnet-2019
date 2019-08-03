@@ -9,3 +9,5 @@ Operations with stores can use only authenticated user.
 - There will be ability to get user profile, where render general information.
 Also realize ability to modify profiles.
 - Search stores with parameters, e.g., name.
+
+![Example](./Store_Rating_System_Dev/Store_Rating_System_Dev/Static/home.svg)

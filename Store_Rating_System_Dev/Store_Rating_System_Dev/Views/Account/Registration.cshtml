@@ -1,0 +1,35 @@
+﻿@model UserCreateModel
+
+<h4>Register Form</h4>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Registration" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" />
+    </div>
+    <div>
+        <label asp-for="Country"></label>
+        <select asp-for="Country"
+                asp-items="@new SelectList(Enum.GetNames(typeof(Countries)))"></select>
+    </div>
+    <div>
+        <label asp-for="City"></label>
+        <select asp-for="City"
+                asp-items="@new SelectList(Enum.GetNames(typeof(Cities)))"></select>
+    </div>
+    <div>
+        <label asp-for="Image">Photo </label>
+        <input type="file" asp-for="Image">
+    </div>
+    <button class="btn btn-sm btn-primary" type="submit">Regist</button><a> </a>
+    <a  class="btn btn-sm btn-primary" asp-action="Index" asp-controller="Home">Cancel</a>
+</form>
+
