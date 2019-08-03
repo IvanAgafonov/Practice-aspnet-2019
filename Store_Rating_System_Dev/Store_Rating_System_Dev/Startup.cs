@@ -51,7 +51,7 @@ namespace Store_Rating_System_Dev
             app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
 
-            //ApplicationDbContext.CreateAdminAccount(app.ApplicationServices, Configuration).Wait();
+            ApplicationDbContext.CreateAdminAccount(app.ApplicationServices, Configuration).Wait();
             //SeedData.EnsurePopulated(app);
         }
     }
