@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 488 223" width="488" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="61" rows="13"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 9395ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+0.117%{transform:translateY(-238px)}
+11.059%{transform:translateY(-476px)}
+18.765%{transform:translateY(-714px)}
+20.724%{transform:translateY(-952px)}
+22.640%{transform:translateY(-1190px)}
+24.141%{transform:translateY(-1428px)}
+25.801%{transform:translateY(-1666px)}
+28.952%{transform:translateY(-1904px)}
+30.399%{transform:translateY(-2142px)}
+32.571%{transform:translateY(-2380px)}
+39.606%{transform:translateY(-2618px)}
+44.109%{transform:translateY(-2856px)}
+44.832%{transform:translateY(-3094px)}
+46.110%{transform:translateY(-3332px)}
+49.101%{transform:translateY(-3570px)}
+49.122%{transform:translateY(-3808px)}
+49.133%{transform:translateY(-4046px)}
+49.164%{transform:translateY(-4284px)}
+89.356%{transform:translateY(-4522px)}
+100.000%{transform:translateY(-4522px)}
+            }
+
+            #screen_view {
+                animation-duration: 9395ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #c5c5c5;}
+            .background {fill: #1c1c1c;}
+            .color0 {fill: #1c1c1c;}
+            .color1 {fill: #ff005b;}
+            .color2 {fill: #cee318;}
+            .color3 {fill: #ffe755;}
+            .color4 {fill: #048ac7;}
+            .color5 {fill: #833c9f;}
+            .color6 {fill: #0ac1cd;}
+            .color7 {fill: #e5e5e5;}
+            .color8 {fill: #1c1c1c;}
+            .color9 {fill: #ff005b;}
+            .color10 {fill: #cee318;}
+            .color11 {fill: #ffe755;}
+            .color12 {fill: #048ac7;}
+            .color13 {fill: #833c9f;}
+            .color14 {fill: #0ac1cd;}
+            .color15 {fill: #e5e5e5;}
+        </style>
+    </defs>
+    <svg id="screen" width="488" height="221" viewBox="0 0 488 221" preserveAspectRatio="xMidYMin slice">
+        <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g11"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="96" x="112">$ figlet ASP</text><text class="background" textLength="8" x="208"> </text></g><g id="g10"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="88" x="112">$ figlet AS</text><text class="background" textLength="8" x="200"> </text></g><g id="g7"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="64" x="112">$ figlet</text><text class="background" textLength="8" x="176"> </text></g><g id="g12"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="104" x="112">$ figlet ASP.</text><text class="background" textLength="8" x="216"> </text></g><g id="g5"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="48" x="112">$ figl</text><text class="background" textLength="8" x="160"> </text></g><g id="g24"><text class="foreground" textLength="312" x="0">                                       </text></g><g id="g20"><text class="foreground" textLength="312" x="0">  / _ \ \___ \| |_) |  \| |  _|   | |  </text><text class="background" textLength="8" x="312"> </text></g><g id="g15"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="128" x="112">$ figlet ASP.NET</text><text class="background" textLength="8" x="240"> </text></g><g id="g8"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="72" x="112">$ figlet </text><text class="background" textLength="8" x="184"> </text></g><g id="g16"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="128" x="112">$ figlet ASP.NET</text></g><g id="g13"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="112" x="112">$ figlet ASP.N</text><text class="background" textLength="8" x="224"> </text></g><g id="g23"><text class="foreground" textLength="312" x="0">/_/   \_\____/|_| (_)_| \_|_____| |_|  </text></g><g id="g17"><text class="background" textLength="8" x="0"> </text></g><g id="g4"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="40" x="112">$ fig</text><text class="background" textLength="8" x="152"> </text></g><g id="g9"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="80" x="112">$ figlet A</text><text class="background" textLength="8" x="192"> </text></g><g id="g22"><text class="foreground" textLength="312" x="0"> / ___ \ ___) |  __/| |\  | |___  | |  </text></g><g id="g3"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="32" x="112">$ fi</text><text class="background" textLength="8" x="144"> </text></g><g id="g25"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="48" x="112">$ exit</text></g><g id="g18"><text class="foreground" textLength="312" x="0">    _    ____  ____  _   _ _____ _____ </text></g><g id="g1"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="16" x="112">$ </text><text class="background" textLength="8" x="128"> </text></g><g id="g21"><text class="foreground" textLength="312" x="0">  / _ \ \___ \| |_) |  \| |  _|   | |  </text></g><g id="g2"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="24" x="112">$ f</text><text class="background" textLength="8" x="136"> </text></g><g id="g6"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="56" x="112">$ figle</text><text class="background" textLength="8" x="168"> </text></g><g id="g14"><text class="color10" font-weight="bold" textLength="96" x="0">sudde@debian</text><text class="foreground" textLength="8" x="96">:</text><text class="color12" font-weight="bold" textLength="8" x="104">/</text><text class="foreground" textLength="120" x="112">$ figlet ASP.NE</text><text class="background" textLength="8" x="232"> </text></g><g id="g19"><text class="foreground" textLength="312" x="0">   / \  / ___||  _ \| \ | | ____|_   _|</text></g></defs><g id="screen_view"><g><rect class="foreground" height="17" width="8" x="128" y="0"/><use y="0" xlink:href="#g1"/></g><g><rect class="foreground" height="17" width="8" x="136" y="238"/><use y="238" xlink:href="#g2"/></g><g><rect class="foreground" height="17" width="8" x="144" y="476"/><use y="476" xlink:href="#g3"/></g><g><rect class="foreground" height="17" width="8" x="152" y="714"/><use y="714" xlink:href="#g4"/></g><g><rect class="foreground" height="17" width="8" x="160" y="952"/><use y="952" xlink:href="#g5"/></g><g><rect class="foreground" height="17" width="8" x="168" y="1190"/><use y="1190" xlink:href="#g6"/></g><g><rect class="foreground" height="17" width="8" x="176" y="1428"/><use y="1428" xlink:href="#g7"/></g><g><rect class="foreground" height="17" width="8" x="184" y="1666"/><use y="1666" xlink:href="#g8"/></g><g><rect class="foreground" height="17" width="8" x="192" y="1904"/><use y="1904" xlink:href="#g9"/></g><g><rect class="foreground" height="17" width="8" x="200" y="2142"/><use y="2142" xlink:href="#g10"/></g><g><rect class="foreground" height="17" width="8" x="208" y="2380"/><use y="2380" xlink:href="#g11"/></g><g><rect class="foreground" height="17" width="8" x="216" y="2618"/><use y="2618" xlink:href="#g12"/></g><g><rect class="foreground" height="17" width="8" x="224" y="2856"/><use y="2856" xlink:href="#g13"/></g><g><rect class="foreground" height="17" width="8" x="232" y="3094"/><use y="3094" xlink:href="#g14"/></g><g><rect class="foreground" height="17" width="8" x="240" y="3332"/><use y="3332" xlink:href="#g15"/></g><g><use y="3570" xlink:href="#g16"/><rect class="foreground" height="17" width="8" x="0" y="3587"/><use y="3587" xlink:href="#g17"/></g><g><use y="3808" xlink:href="#g16"/><use y="3825" xlink:href="#g18"/><use y="3842" xlink:href="#g19"/><rect class="foreground" height="17" width="8" x="0" y="3859"/><use y="3859" xlink:href="#g17"/></g><g><use y="4046" xlink:href="#g16"/><use y="4063" xlink:href="#g18"/><use y="4080" xlink:href="#g19"/><rect class="foreground" height="17" width="8" x="312" y="4097"/><use y="4097" xlink:href="#g20"/></g><g><use y="4284" xlink:href="#g16"/><use y="4301" xlink:href="#g18"/><use y="4318" xlink:href="#g19"/><use y="4335" xlink:href="#g21"/><use y="4352" xlink:href="#g22"/><use y="4369" xlink:href="#g23"/><use y="4386" xlink:href="#g24"/><rect class="foreground" height="17" width="8" x="128" y="4403"/><use y="4403" xlink:href="#g1"/></g><g><use y="4522" xlink:href="#g16"/><use y="4539" xlink:href="#g18"/><use y="4556" xlink:href="#g19"/><use y="4573" xlink:href="#g21"/><use y="4590" xlink:href="#g22"/><use y="4607" xlink:href="#g23"/><use y="4624" xlink:href="#g24"/><use y="4641" xlink:href="#g25"/><rect class="foreground" height="17" width="8" x="0" y="4658"/><use y="4658" xlink:href="#g17"/></g></g></svg>
+</svg>
