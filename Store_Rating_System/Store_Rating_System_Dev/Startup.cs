@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Store_Rating_System_Dev.Models;
 using Microsoft.AspNetCore.Identity;
+using System.IO;
 
 namespace Store_Rating_System_Dev
 {
@@ -21,9 +22,11 @@ namespace Store_Rating_System_Dev
 
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = Configuration["Data:Store_Rating_System_dev_connection_str:ConnectionString"];
+            var NewConnectionString = GetUpdatedConnectionString(connectionString);
+
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                Configuration["Data:Store_Rating_System_dev_connection_str:ConnectionString"]));
+                options.UseSqlServer(NewConnectionString));
 
             services.AddTransient<IRepository, EFRepository>();
 
@@ -38,6 +41,35 @@ namespace Store_Rating_System_Dev
                 options.AddPolicy("RequireAuthenticatedUser", policy =>
                        policy.RequireAuthenticatedUser());
             });
+        }
+
+        private string GetUpdatedConnectionString(string connection)
+        {
+            var connectionStringParameters = connection.Split(';');
+            string relative_path_to_db = null;
+            string NewConnectionString = "";
+            foreach (var item in connectionStringParameters)
+            {
+
+                if (item.Contains("AttachDbFilename"))
+                {
+                    relative_path_to_db = item.Split('=')[1];
+                    var path_splited = relative_path_to_db.Split("\\");
+                    var relative_path_to_dir_db = path_splited[0] + "\\" + path_splited[1];
+                    var name_of_db = path_splited[2];
+                    Directory.SetCurrentDirectory(relative_path_to_dir_db);
+                    var full_path_to_db = Directory.GetCurrentDirectory() + "\\" + name_of_db;
+
+                    NewConnectionString += "AttachDbFilename=" + full_path_to_db + ";";
+                }
+                else
+                {
+                    NewConnectionString += item + ";";
+                }
+            }
+
+            return NewConnectionString;
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
