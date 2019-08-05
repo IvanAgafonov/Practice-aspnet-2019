@@ -26,5 +26,8 @@ namespace Store_Rating_System_Dev.Controllers
             return View(repository.Stores);
         }
 
+        [Route("Home/Error/{code:int}")]
+        public ViewResult Error(int code) => View(code);
+
     }
 }

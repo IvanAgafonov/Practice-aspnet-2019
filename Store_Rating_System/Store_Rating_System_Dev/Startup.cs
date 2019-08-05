@@ -34,6 +34,7 @@ namespace Store_Rating_System_Dev
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+
             services.AddMvc();
 
             services.AddAuthorization(options =>
@@ -75,10 +76,17 @@ namespace Store_Rating_System_Dev
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
 
 
-            app.UseDeveloperExceptionPage();
-            app.UseStatusCodePages();
+            app.UseStatusCodePagesWithReExecute("/Home/Error/{0}");
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
