@@ -10,4 +10,10 @@ Operations with stores can use only authenticated user.
 Also realize ability to modify profiles.
 - Search stores with parameters, e.g., name.
 
+
+
+Default Admin data |Name | Password
+------------ | ------------ | -------------
+-> | Admin | secret123#A
+
 ![Example](./Store_Rating_System/Store_Rating_System_Dev/Static/home.svg)
