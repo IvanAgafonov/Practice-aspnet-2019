@@ -16,7 +16,7 @@ namespace Store_Rating_System_Dev.Models
     public class Store
     {
         [Key]
-        public int ID                       { get; set; }
+        public string ID                    { get; set; }
 
         public byte[] Image                 { get; set; }
 

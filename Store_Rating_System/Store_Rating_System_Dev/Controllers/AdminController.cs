@@ -36,16 +36,6 @@ namespace Store_Rating_System_Dev.Controllers
             return View();
         }
 
-        public ViewResult Ratings()
-        {
-            return View();
-        }
-
-        public ViewResult Stores()
-        {
-            return View();
-        }
-
         private void AddErrorsFromResult(IdentityResult result)
         {
             foreach (IdentityError error in result.Errors)
@@ -55,6 +45,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         #region Ratings
+
         public ViewResult RatingsRead()
         {
             return View(repository.Ratings.OrderBy(rating => rating.Store_ID));
@@ -90,7 +81,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         [HttpGet]
-        public ActionResult RatingsUpdate(int id)
+        public ActionResult RatingsUpdate(string id)
         {
             Rating rating = repository.Ratings.Where(x => x.ID == id).FirstOrDefault();
             if (rating != null)
@@ -124,7 +115,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         [HttpPost]
-        public ActionResult RatingsDelete(int id)
+        public ActionResult RatingsDelete(string id)
         {
             Rating rating = repository.Ratings.Where(x => x.ID == id).FirstOrDefault();
 
@@ -139,6 +130,7 @@ namespace Store_Rating_System_Dev.Controllers
         #endregion
 
         #region Stores
+
         public ViewResult StoresRead()
         {
             return View(repository.Stores.OrderBy(store => store.Name));
@@ -163,7 +155,7 @@ namespace Store_Rating_System_Dev.Controllers
                     Category = model.Category,
                     Number_of_ratings = model.Number_of_ratings,
                     Number_of_pos_ratings = model.Number_of_pos_ratings,
-                    Description = model.Description,
+                    Avarange_rating = Math.Round(((double)model.Number_of_pos_ratings / model.Number_of_ratings), 1),
                     City = model.City,
                     Country = model.Country
                 };
@@ -184,7 +176,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         [HttpGet]
-        public ActionResult StoresUpdate(int id)
+        public ActionResult StoresUpdate(string id)
         {
             Store store = repository.Stores.Where(x => x.ID == id).FirstOrDefault();
             if (store != null)
@@ -230,7 +222,7 @@ namespace Store_Rating_System_Dev.Controllers
         }
 
         [HttpPost]
-        public ActionResult StoresDelete(int id)
+        public ActionResult StoresDelete(string id)
         {
             Store store = repository.Stores.Where(x => x.ID == id).FirstOrDefault();
 

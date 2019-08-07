@@ -55,8 +55,7 @@ namespace Store_Rating_System_Dev.Migrations
                 name: "Stores",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ID = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Avarange_rating = table.Column<double>(type: "float", nullable: false),
                     Category = table.Column<int>(type: "int", nullable: false),
                     City = table.Column<int>(type: "int", nullable: false),
@@ -183,13 +182,12 @@ namespace Store_Rating_System_Dev.Migrations
                 name: "Ratings",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ID = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Comment = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     Date_of_publication = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Rate_Status = table.Column<int>(type: "int", nullable: true),
                     Rate_value = table.Column<bool>(type: "bit", nullable: false),
-                    Store_ID = table.Column<int>(type: "int", nullable: false),
+                    Store_ID = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     User_ID = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
@@ -200,7 +198,7 @@ namespace Store_Rating_System_Dev.Migrations
                         column: x => x.Store_ID,
                         principalTable: "Stores",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Ratings_AspNetUsers_User_ID",
                         column: x => x.User_ID,

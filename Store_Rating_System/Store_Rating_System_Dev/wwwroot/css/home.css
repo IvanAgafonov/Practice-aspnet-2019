@@ -56,6 +56,7 @@ header ul a {
         color: #f00;
     }
 
+  
 .text-danger {
     color: #d9534f !important;
 }
@@ -65,13 +66,18 @@ header ul a {
     max-width: 200px;
 }
 
-.users td img, .stores td img {
+.users td img, .stores td img, img.small_photo {
     max-height: 50px;
     max-width: 50px;
 }
 
+
 header ul .right_buttons {
     float: right
+}
+
+table.table tr td a {
+    color: #ffffff;
 }
 
 .clearfix:before,

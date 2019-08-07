@@ -1,4 +1,4 @@
-﻿@model Store_with_Ratings
+﻿@model Store_with_Ratings_Users
 
 @if (Model == null)
 {
@@ -37,27 +37,41 @@ else
     <hr />
 
 
-    foreach (var rating in Model.ratings)
+    foreach (var node in Model.dict_user_rating)
     {
-        <article class="form-control">
-            @if (rating.Comment != null)
-            {
-                <p>@rating.Comment</p>
-            }
-            else
-            {
-                <p></p>
-            }
+    <article class="form-control">
+        <div class="alert-info">
+            @{var Data = new Dictionary<string, string>();
+                Data.Add("Name", @node.Key.UserName);}
 
-            @switch(rating.Rate_value)
-            {
-                case true: <p>Positive</p> break;
-                case false: <p>Negative</p> break;
-                default: <p></p> break;
-            }
+            <a asp-controller="Account" asp-action="Profile" asp-all-route-data="Data">@node.Key.UserName</a>
 
-            <time>@rating.Date_of_publication</time>
-        </article>
+            @if (node.Key.Image != null)
+            {
+                <img alt="photo" class="small_photo" src="data:image/jpeg;base64,@Convert.ToBase64String(node.Key.Image)" />
+            }
+        </div>
+
+        @if (node.Value.Comment != null)
+        {
+            <p>@node.Value.Comment</p>
+        }
+        else
+        {
+            <p></p>
+        }
+
+            <div>
+                @switch (node.Value.Rate_value)
+                {
+                    case true:<img alt="plus" src="~/images/pos.png" />break;
+                    case false:<img alt="minus" src="~/images/neg.png" />break;
+                    default: <p></p>break;
+                }
+            </div>
+
+            <time>@node.Value.Date_of_publication</time>
+    </article>
         <hr />
     }
 }

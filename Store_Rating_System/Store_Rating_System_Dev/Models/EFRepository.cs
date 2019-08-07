@@ -34,6 +34,7 @@ namespace Store_Rating_System_Dev.Models
             Rating DB_Rating = context.Ratings.Where(x => x.ID == rating.ID).FirstOrDefault();
             if (DB_Rating == null)
             {
+                rating.ID = Guid.NewGuid().ToString();
                 context.Ratings.Add(rating);
                 OnRatingCreate(rating);
             }
@@ -64,6 +65,7 @@ namespace Store_Rating_System_Dev.Models
             Store DB_Store = context.Stores.Where(x => x.ID == store.ID).FirstOrDefault();
             if (DB_Store == null)
             {
+                store.ID = Guid.NewGuid().ToString();
                 context.Stores.Add(store);
             }
             else
@@ -73,6 +75,7 @@ namespace Store_Rating_System_Dev.Models
                 DB_Store.Category = store.Category;
                 DB_Store.Number_of_ratings = store.Number_of_ratings;
                 DB_Store.Number_of_pos_ratings = store.Number_of_pos_ratings;
+                DB_Store.Avarange_rating = System.Math.Round(((double)store.Number_of_pos_ratings / store.Number_of_ratings), 1);
                 DB_Store.Description = store.Description;
                 DB_Store.City = store.City;
                 DB_Store.Country = store.Country;

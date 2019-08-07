@@ -85,7 +85,7 @@ namespace Store_Rating_System_Dev
                 app.UseExceptionHandler("/Home/Error");
             }
 
-
+            //app.UseDeveloperExceptionPage();
             app.UseStatusCodePagesWithReExecute("/Home/Error/{0}");
             app.UseStaticFiles();
             app.UseAuthentication();

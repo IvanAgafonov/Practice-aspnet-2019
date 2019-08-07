@@ -130,7 +130,7 @@ namespace Store_Rating_System_Dev.Migrations
 
             modelBuilder.Entity("Store_Rating_System_Dev.Models.Rating", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<string>("ID")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Comment")
@@ -142,7 +142,7 @@ namespace Store_Rating_System_Dev.Migrations
 
                     b.Property<bool>("Rate_value");
 
-                    b.Property<int>("Store_ID");
+                    b.Property<string>("Store_ID");
 
                     b.Property<string>("User_ID");
 
@@ -157,7 +157,7 @@ namespace Store_Rating_System_Dev.Migrations
 
             modelBuilder.Entity("Store_Rating_System_Dev.Models.Store", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<string>("ID")
                         .ValueGeneratedOnAdd();
 
                     b.Property<double>("Avarange_rating");
@@ -294,8 +294,7 @@ namespace Store_Rating_System_Dev.Migrations
                 {
                     b.HasOne("Store_Rating_System_Dev.Models.Store", "Store")
                         .WithMany()
-                        .HasForeignKey("Store_ID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("Store_ID");
 
                     b.HasOne("Store_Rating_System_Dev.Models.User", "User")
                         .WithMany()
