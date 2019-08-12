@@ -56,9 +56,10 @@ header ul a {
         color: #f00;
     }
 
-  
+
 .text-danger {
-    color: #d9534f !important;
+    color: #530f0f !important;
+    font-weight: bold;
 }
 
 .user_photo img {
