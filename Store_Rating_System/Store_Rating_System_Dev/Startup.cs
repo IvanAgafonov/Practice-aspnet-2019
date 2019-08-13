@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Store_Rating_System_Dev.Models;
 using Microsoft.AspNetCore.Identity;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Store_Rating_System_Dev
 {
@@ -44,33 +45,23 @@ namespace Store_Rating_System_Dev
             });
         }
 
+
         private string GetUpdatedConnectionString(string connection)
         {
-            var connectionStringParameters = connection.Split(';');
-            string relative_path_to_db = null;
-            string NewConnectionString = "";
-            foreach (var item in connectionStringParameters)
-            {
+            Regex RegexAttachDbFilename = new Regex("AttachDbFilename=(.+?);");
+            string AttachDbFilename = RegexAttachDbFilename.Match(connection).Groups[1].ToString();
 
-                if (item.Contains("AttachDbFilename"))
-                {
-                    relative_path_to_db = item.Split('=')[1];
-                    var path_splited = relative_path_to_db.Split("\\");
-                    var relative_path_to_dir_db = path_splited[0] + "\\" + path_splited[1];
-                    var name_of_db = path_splited[2];
-                    Directory.SetCurrentDirectory(relative_path_to_dir_db);
-                    var full_path_to_db = Directory.GetCurrentDirectory() + "\\" + name_of_db;
+            Regex RegexDbName = new Regex(@"\\.+?$", RegexOptions.RightToLeft);
+            Regex RegexRelativePath = new Regex(@"^(.+)\\.+?", RegexOptions.RightToLeft);
+            string NameDB = RegexDbName.Match(AttachDbFilename).ToString();
+            string RelativePath = RegexRelativePath.Match(AttachDbFilename).Groups[1].ToString();
 
-                    NewConnectionString += "AttachDbFilename=" + full_path_to_db + ";";
-                }
-                else
-                {
-                    NewConnectionString += item + ";";
-                }
-            }
+            Directory.SetCurrentDirectory(RelativePath);
+            string FullPath = Directory.GetCurrentDirectory() + NameDB;
 
-            return NewConnectionString;
+            string NewConnection = RegexAttachDbFilename.Replace(connection, "AttachDbFilename=" + FullPath + ";");
 
+            return NewConnection;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
