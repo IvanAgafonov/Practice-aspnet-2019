@@ -18,4 +18,4 @@ Default Admin data |Name | Password
 
 ![for fun](./Store_Rating_System/Store_Rating_System_Dev/Static/home.svg)
 
-![test](./Store_Rating_System/Store_Rating_System_Dev/Static/test.svg)
+![test](./test.svg)
