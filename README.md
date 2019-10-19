@@ -17,5 +17,3 @@ Default Admin data |Name | Password
 -> | Admin | secret123#A
 
 ![for fun](./Store_Rating_System/Store_Rating_System_Dev/Static/home.svg)
-
-![test](./test.svg)
